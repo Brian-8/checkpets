@@ -1,0 +1,248 @@
+.slideshow-container img{
+    image-resolution: 300dpi;
+}
+@viewport{
+    width: auto;
+}
+
+:root{
+    /* dark shades of primary color */
+    --clr-primary-1:hsl(213, 80%, 55%);
+        --clr-primary-2:hsl(213, 80%,39%);
+        /* lighter shades */
+        --clr-primary-3: hsla(212, 54%, 49%,0.5);
+        /* grey shades heading */
+        --clr-heading: hsl(0, 0%, 40%);
+        /* links */
+        --clr-heading: hsl(0, 0%, 33%);
+        /* on surface color */
+        --clr-bg-text:hsl(0,100%,100%);
+        --radius: 0.34em;
+        --spacing:0.25rem;
+        --transition:all .3s linear;
+        --box-shadow: 5px 3px ;
+         
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Cuprum";
+    font-size: 1.589em;
+    letter-spacing:var(--spacing);
+    line-height: 1.5;
+}
+/* top header */
+.topnav{
+    display: flex;
+    justify-content: space-between;
+    margin:0.27em ;
+    position: relative;
+}
+.signup{
+    margin-right: 1em;
+}
+.topnav .logo{
+    cursor: pointer;
+}
+
+/* register btn */
+header .login{
+    cursor: pointer;
+    color: black;
+    padding-left: 0.16em;
+
+}
+header .btn{
+    background-color: var(--clr-primary-2);
+    color: var(--clr-bg-text);
+    padding: 0.77em 0.8em;
+    border-radius: var(--radius);
+    border: 1px solid hsl(0, 4%, 81%);
+    cursor: pointer;
+
+}
+header .btn:hover{
+    background-color: var(--clr-primary-1);
+}
+/* nav container */
+body .nav-links{     
+     background-color: var(--clr-primary-1);
+     /* position: fixed; */
+     width: 100%;
+     z-index: 1;
+
+
+}
+/* banner */
+.slideshow-container{
+
+ 
+   background-image: url("../images/Dog1.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+
+   position: relative;
+   width: auto;
+   height: 500px;
+   
+    margin: 1.5em 0;
+
+}
+.slideshow-container>.slogan{
+    mix-blend-mode:hard-light;
+    position: absolute;
+    top: 200px;
+    font-size: larger;
+    letter-spacing: 0.215em;
+    margin-left: 0.5em;
+
+}
+
+/* menu btn */
+.btn-show{
+    background-color: var(--clr-primary-1);
+    border: none;
+    cursor: pointer;
+    margin-left: 0.678em;
+    
+}
+.menu-btn{
+    
+    display: none;
+}
+.btn{
+    padding: 0.5em em;
+    border: none;
+    background-color: var(--clr-primary-1);
+}
+/* links */
+ .menu-item{        
+    color: var(--clr-bg-text);
+    text-decoration: none;
+}
+
+/* links container */
+.links-container{
+     display: flex;
+    justify-content: space-evenly;
+    
+}
+.link-lists{  
+    flex-grow: 3;
+        display: flex;    
+    justify-content:space-around;
+
+}
+/* lists */
+ul li{
+    list-style-type: none;
+}
+.link-lists .list-item{
+padding: 1em 0.6em;
+
+}
+.link-lists .list-item:hover{
+    background-color: var(--clr-primary-3);
+}
+.fa-bars{
+    font-size: 2em;
+}
+.fa-search{
+    color: white;
+    font-size: 0.7564em;
+    cursor: pointer;
+}
+/* search-bar */
+.search-bar{
+    padding: 1em 0.6em;
+}
+.search-bar input[type="search"]{
+    padding:0.5em 0.28em;
+    border-radius: var(--radius);
+    border: 0.05em solid hsl(0, 0%, 95%);
+    transition: var(--transition);
+
+    }
+
+    .search-bar input[type="search"]:hover{
+        
+        border-color: var(--clr-primary-3);
+    }
+    .search-bar input[type="search"]:focus{
+        outline:thin hsl(0, 0%, 95%);
+    }
+    
+
+
+    
+@media screen and (max-width:600px){
+  
+    .links-container{
+        display: none;
+    }
+    .nav-links .change{
+        position: absolute;
+        top:130px;
+        width:100%;
+        background-color:var(--clr-primary-1);
+        display: block;
+                   align-items:center;
+           text-align:center;    
+
+
+    }
+    .nav-links .link-lists{   
+        
+           flex-direction:column;
+
+               }
+   .menu-btn{
+        display: block;
+       
+
+    }
+    .search-bar input[type="search"]{
+        padding:0.84em 0.3em;
+        margin:0.55em 0.2em;       
+       border: none;
+        border-radius: var(--radius);
+        }
+        .search-bar input[type="search"]:focus{
+            outline: none;
+    
+            
+            
+        }
+}
+.services{
+    display: grid;
+    width: 800px;
+    margin: 1em auto;
+    grid-template-areas: "header header header" "dog cat handler";
+    grid-template-rows: auto 1fr;
+   
+}
+.services>.main-title{
+    grid-area: header;
+}
+.services>.dog-service{
+    grid-area: dog;
+}
+.services>.cat-service{
+    grid-area: cat;
+}
+.services>.pet-handler-service{
+    grid-area: handler;
+}
+
+
+
+
+
+
+
+
+

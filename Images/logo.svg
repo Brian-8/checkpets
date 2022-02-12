@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="50mm"
+   height="12mm"
+   viewBox="0 0.1 52 12.48"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="cm"
+     showgrid="false"
+     inkscape:zoom="0.48996914"
+     inkscape:cx="-1.0204724"
+     inkscape:cy="438.80315"
+     inkscape:window-width="1288"
+     inkscape:window-height="768"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     inkscape:snap-center="false"
+     showguides="false"
+     width="90mm"
+     scale-x="10.4"
+     showborder="true"
+     inkscape:showpageshadow="false"
+     viewbox-x="0"
+     viewbox-height="31.2" />
+  <defs
+     id="defs2">
+    <linearGradient
+       id="linearGradient26524"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#3083e8;stop-opacity:1;"
+         offset="0"
+         id="stop26522" />
+    </linearGradient>
+    <rect
+       x="191.84882"
+       y="402.06613"
+       width="108.17008"
+       height="18.368504"
+       id="rect10885" />
+    <rect
+       x="214.29921"
+       y="420.43466"
+       width="24.491339"
+       height="142.86613"
+       id="rect4917" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient26524"
+       id="linearGradient40207"
+       gradientUnits="userSpaceOnUse"
+       x1="58.046722"
+       y1="108.30613"
+       x2="82.84288"
+       y2="108.30613" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.7625px;line-height:1.25;font-family:serif;-inkscape-font-specification:serif;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;white-space:pre;inline-size:68.1104;fill:url(#linearGradient40207);fill-opacity:1;stroke-width:0.120468;stroke-miterlimit:4;stroke-dasharray:none"
+       x="57.779999"
+       y="109.62"
+       id="text693"
+       transform="matrix(1.8726367,0,0,2.5840243,-106.29531,-272.86353)"><tspan
+         x="57.779999"
+         y="109.62"
+         id="tspan40224">Checkpets</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text4915"
+       style="font-size:18px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect4917)" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text10883"
+       style="font-size:18px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect10885)" />
+  </g>
+</svg>
